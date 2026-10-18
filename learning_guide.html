@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Understanding Artificial Intelligence & Machine Learning - Learning Guide</title>
+<style>
+  @page {
+    size: A4;
+    margin: 18mm 18mm 18mm 18mm;
+  }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #2c3e50;
+    line-height: 1.55;
+    font-size: 13.5px;
+    margin: 0;
+    padding: 0;
+  }
+  .header-badge {
+    text-align: center;
+    color: #008080;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+  .main-title {
+    text-align: center;
+    color: #1b365d;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0 0 6px 0;
+    letter-spacing: -0.3px;
+  }
+  .subtitle {
+    text-align: center;
+    color: #5c6b77;
+    font-size: 13px;
+    font-style: italic;
+    margin: 0 0 16px 0;
+  }
+  .divider {
+    height: 2px;
+    background: linear-gradient(90deg, #008080, #1b365d, #008080);
+    margin-bottom: 16px;
+    border-radius: 2px;
+  }
+  .intro-box {
+    background-color: #f0f5fa;
+    border-left: 4px solid #1b365d;
+    padding: 12px 16px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+  }
+  .intro-box strong {
+    color: #1b365d;
+    font-size: 14px;
+  }
+  .concept-card {
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin-bottom: 15px;
+    background: #ffffff;
+    page-break-inside: avoid;
+  }
+  .concept-title {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin-bottom: 4px;
+  }
+  .badge-num {
+    background: #1b365d;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 4px;
+  }
+  .concept-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1b365d;
+  }
+  .concept-tagline {
+    font-size: 12px;
+    color: #008080;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .concept-desc {
+    margin-bottom: 8px;
+  }
+  .example-box {
+    background: #eef7f8;
+    border-left: 3px solid #008080;
+    padding: 9px 13px;
+    border-radius: 4px;
+    font-size: 12.5px;
+  }
+  .example-title {
+    font-weight: 700;
+    color: #008080;
+    margin-bottom: 3px;
+  }
+  .page-break {
+    page-break-before: always;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 14px;
+    font-size: 12px;
+  }
+  th, td {
+    padding: 9px 11px;
+    border: 1px solid #d9e2ec;
+    text-align: left;
+  }
+  th {
+    background-color: #1b365d;
+    color: #ffffff;
+    font-weight: 600;
+  }
+  tr:nth-child(even) {
+    background-color: #f8fafc;
+  }
+  .hierarchy-box {
+    background: #f8f9fa;
+    border: 1px solid #e1e8ed;
+    border-radius: 6px;
+    padding: 12px 16px;
+    margin-top: 16px;
+    font-size: 12.5px;
+    page-break-inside: avoid;
+  }
+  .footer {
+    text-align: center;
+    font-size: 11px;
+    color: #8898aa;
+    margin-top: 25px;
+  }
+</style>
+</head>
+<body>
+
+  <div class="header-badge">INAMIGOS FOUNDATION INTERNSHIP PROGRAM • TASK 1</div>
+  <h1 class="main-title">Understanding AI & Machine Learning</h1>
+  <p class="subtitle">A Comprehensive Beginner's Learning Guide with Real-World Examples</p>
+  <div class="divider"></div>
+
+  <div class="intro-box">
+    <strong>🎯 Learning Objective:</strong>
+    To build a solid foundational understanding of how Artificial Intelligence and Machine Learning work by exploring their definitions, underlying intuition, relationships, and tangible real-life applications.
+  </div>
+
+  <!-- Concept 1 -->
+  <div class="concept-card">
+    <div class="concept-title">
+      <span class="badge-num">01</span>
+      <span class="concept-name">Artificial Intelligence (AI) 🤖</span>
+    </div>
+    <div class="concept-tagline">The Broad Science of Creating Intelligent Systems</div>
+    <div class="concept-desc">
+      <strong>Simple Explanation:</strong> Artificial Intelligence (AI) is the broad branch of computer science focused on building smart systems and machines capable of performing tasks that traditionally require human intellect—such as thinking, reasoning, understanding language, recognizing patterns, and making decisions.
+    </div>
+    <div class="example-box">
+      <div class="example-title">🌟 Real-Life Example: Smart Virtual Assistants (Apple Siri / Google Assistant)</div>
+      When you ask Siri or Google Assistant, <em>"What is the traffic like to the office?"</em>, the system captures your voice, converts speech to text, comprehends the context, queries live satellite GPS data, and responds with spoken guidance.
+    </div>
+  </div>
+
+  <!-- Concept 2 -->
+  <div class="concept-card">
+    <div class="concept-title">
+      <span class="badge-num">02</span>
+      <span class="concept-name">Machine Learning (ML) 🧠</span>
+    </div>
+    <div class="concept-tagline">Enabling Machines to Learn from Experience Without Hardcoded Rules</div>
+    <div class="concept-desc">
+      <strong>Simple Explanation:</strong> Machine Learning is a vital subset of AI. Instead of writing endless rigid code rules ("if-then" statements), we feed large amounts of historical data into an algorithm. The algorithm learns the underlying patterns on its own and improves its accuracy with more experience.
+    </div>
+    <div class="example-box">
+      <div class="example-title">🌟 Real-Life Example: Email Spam Filtering (Gmail)</div>
+      Gmail doesn't require engineers to manually list every spam email. Instead, an ML model studies billions of emails marked as "spam" or "inbox" and automatically detects subtle signs of spam (suspicious words, fake links, sender reputation) to filter your inbox.
+    </div>
+  </div>
+
+  <!-- Concept 3 -->
+  <div class="concept-card">
+    <div class="concept-title">
+      <span class="badge-num">03</span>
+      <span class="concept-name">Deep Learning (DL) ⚡</span>
+    </div>
+    <div class="concept-tagline">Multi-Layered Brain-Inspired Artificial Neural Networks</div>
+    <div class="concept-desc">
+      <strong>Simple Explanation:</strong> Deep Learning is a specialized, powerful subset of Machine Learning based on Artificial Neural Networks with many hidden layers (hence "deep"). Inspired by the human brain's interconnected neurons, DL excels at processing massive unstructured data like images, audio, and video.
+    </div>
+    <div class="example-box">
+      <div class="example-title">🌟 Real-Life Example: Face ID & Autonomous Self-Driving Cars</div>
+      When unlocking your phone with Face ID, a deep neural network processes thousands of 3D facial contours across multiple layers. It recognizes you in darkness, with sunglasses, or after a haircut by evaluating layered visual representations.
+    </div>
+  </div>
+
+  <div class="page-break"></div>
+
+  <!-- Concept 4 -->
+  <div class="concept-card">
+    <div class="concept-title">
+      <span class="badge-num">04</span>
+      <span class="concept-name">Supervised Learning 📚</span>
+    </div>
+    <div class="concept-tagline">Guided Learning with Labeled Training Examples (Input + Answer)</div>
+    <div class="concept-desc">
+      <strong>Simple Explanation:</strong> Supervised Learning is like learning with a teacher. The algorithm is provided with a training dataset where every input comes with the correct target answer (label). By studying these pairs, the model learns to map inputs to outputs, allowing it to predict labels for brand-new data.
+    </div>
+    <div class="example-box">
+      <div class="example-title">🌟 Real-Life Example: Real Estate Price Estimation</div>
+      A model is fed past house sales data containing features (area in sq. ft., bedrooms, neighborhood) paired with their actual sold price. After training, you input details of an unpriced house, and the algorithm reliably estimates its market price.
+    </div>
+  </div>
+
+  <!-- Concept 5 -->
+  <div class="concept-card">
+    <div class="concept-title">
+      <span class="badge-num">05</span>
+      <span class="concept-name">Unsupervised Learning 🔍</span>
+    </div>
+    <div class="concept-tagline">Autonomous Discovery of Hidden Patterns in Unlabeled Data</div>
+    <div class="concept-desc">
+      <strong>Simple Explanation:</strong> In Unsupervised Learning, the algorithm is given raw data without any labels, categories, or correct answers. The model must independently explore the data to detect natural similarities, clusters, and hidden structures on its own.
+    </div>
+    <div class="example-box">
+      <div class="example-title">🌟 Real-Life Example: E-Commerce Customer Segmentation</div>
+      Amazon or Flipkart groups millions of customers based on purchase behavior, search frequency, and browsing time without predefined customer labels. This allows businesses to target distinct segments (e.g., "bargain seekers" vs. "premium shoppers") with customized offers.
+    </div>
+  </div>
+
+  <!-- Concept 6 -->
+  <div class="concept-card">
+    <div class="concept-title">
+      <span class="badge-num">06</span>
+      <span class="concept-name">Reinforcement Learning (RL) 🏆</span>
+    </div>
+    <div class="concept-tagline">Goal-Oriented Learning Through Rewards and Penalties</div>
+    <div class="concept-desc">
+      <strong>Simple Explanation:</strong> Reinforcement Learning is learning through trial and error. An "agent" interacts with an "environment" to achieve a goal. It receives positive rewards for beneficial actions and penalties for mistakes, gradually learning the best strategy (policy) to maximize total rewards.
+    </div>
+    <div class="example-box">
+      <div class="example-title">🌟 Real-Life Example: Game AI (AlphaGo / Video Game Bots) & Robotics</div>
+      DeepMind's AlphaGo learned to master the ancient game of Go by playing millions of games against itself. Moves that improved its win probability gave positive rewards, enabling it to invent creative strategies that defeated the world's greatest human masters.
+    </div>
+  </div>
+
+  <!-- Comparison Table -->
+  <h2 style="color: #1b365d; font-size: 16px; margin: 18px 0 8px 0;">📊 Summary Comparison Table</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Concept</th>
+        <th>Simple Definition</th>
+        <th>Core Mechanism</th>
+        <th>Real-World Example</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Artificial Intelligence (AI)</strong></td>
+        <td>Machines mimicking human intelligence</td>
+        <td>Logic, rules, data & automation</td>
+        <td>Siri, Google Assistant, Smart GPS</td>
+      </tr>
+      <tr>
+        <td><strong>Machine Learning (ML)</strong></td>
+        <td>Computers learning from data without explicit code</td>
+        <td>Statistical models & pattern recognition</td>
+        <td>Gmail spam filter, Netflix recommendations</td>
+      </tr>
+      <tr>
+        <td><strong>Deep Learning (DL)</strong></td>
+        <td>Multi-layered neural networks inspired by human brain</td>
+        <td>Deep neural network architectures</td>
+        <td>Smartphone Face ID, Self-driving vision</td>
+      </tr>
+      <tr>
+        <td><strong>Supervised Learning</strong></td>
+        <td>Learning with a teacher using labeled data</td>
+        <td>Mapping inputs (X) to known outputs (Y)</td>
+        <td>House price predictor, loan approval</td>
+      </tr>
+      <tr>
+        <td><strong>Unsupervised Learning</strong></td>
+        <td>Finding hidden groupings in raw unlabeled data</td>
+        <td>Clustering, pattern extraction & grouping</td>
+        <td>Customer segmentation, anomaly detection</td>
+      </tr>
+      <tr>
+        <td><strong>Reinforcement Learning</strong></td>
+        <td>Learning through trial, error, reward & penalty</td>
+        <td>Agent-environment feedback loop</td>
+        <td>AlphaGo, gaming bots, robotic navigation</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Conceptual Architecture -->
+  <div class="hierarchy-box">
+    <strong style="color: #1b365d;">💡 Conceptual Hierarchy & Relationship:</strong><br>
+    • <strong>AI is the Universe:</strong> The umbrella concept of making computers smart.<br>
+    • <strong>ML is the Engine:</strong> The methodology enabling machines to learn from patterns in data.<br>
+    • <strong>DL is the High-Performance Core:</strong> The specialized neural net technique solving intricate, perception-heavy problems.<br>
+    • <strong>The 3 Paradigms:</strong> <em>Supervised</em> (learning with answers), <em>Unsupervised</em> (learning without answers), and <em>Reinforcement</em> (learning via rewards).
+  </div>
+
+  <div class="footer">
+    Prepared for InAmigos Foundation • Task 1 Submission • Learning Guide on AI & Machine Learning
+  </div>
+
+</body>
+</html>

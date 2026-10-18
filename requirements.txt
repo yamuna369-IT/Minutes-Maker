@@ -1,0 +1,11 @@
+fastapi[uvicorn]
+uvicorn
+python-multipart
+faster-whisper
+openai
+pyannote.audio
+torch
+python-docx
+reportlab
+pydub
+ffmpeg-python
