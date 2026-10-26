@@ -1,0 +1,89 @@
+.App {
+  min-height: 100vh;
+  padding: 32px 20px 56px;
+  text-align: center;
+}
+
+.title-block {
+  margin: 0 auto 28px;
+  max-width: 920px;
+}
+
+.title-block h1 {
+  color: #26364f;
+  letter-spacing: 0;
+  margin-bottom: 10px;
+}
+
+.upload-panel {
+  background: #ffffff;
+  border: 1px solid #dfe5ec;
+  border-radius: 8px;
+  box-shadow: 0 10px 28px rgba(36, 45, 62, 0.08);
+  margin: 0 auto;
+  max-width: 760px;
+  padding: 28px;
+  text-align: left;
+}
+
+.loading-state {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  min-height: 240px;
+}
+
+.results-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 28px auto 0;
+  max-width: 1180px;
+  text-align: left;
+}
+
+.result-card {
+  border: 1px solid #dfe5ec;
+  border-radius: 8px;
+  box-shadow: none;
+  padding: 22px;
+}
+
+.summary-card,
+.transcript-card {
+  grid-column: 1 / -1;
+}
+
+.result-list {
+  margin: 12px 0 0;
+  padding-left: 22px;
+}
+
+.result-list li {
+  margin-bottom: 8px;
+}
+
+.transcript-line {
+  border-left: 3px solid #2f9c95;
+  padding-left: 14px;
+}
+
+@media (max-width: 760px) {
+  .App {
+    padding: 22px 12px 40px;
+  }
+
+  .title-block h1 {
+    font-size: 2rem;
+  }
+
+  .upload-panel {
+    padding: 18px;
+  }
+
+  .results-grid {
+    grid-template-columns: 1fr;
+  }
+}
