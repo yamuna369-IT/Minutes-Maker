@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # python generated files
 __pycache__/
 *.py[oc]
@@ -12,6 +13,8 @@ wheels/
 .env
 generated_reports/
 =======
+=======
+>>>>>>> 2da27112b69fcd0120e6afd779eef8b591165ae6
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -232,4 +235,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+<<<<<<< HEAD
 >>>>>>> 8a3ab508b20c34a9cdd22cc013c53cee9d819e61
+=======
+>>>>>>> 2da27112b69fcd0120e6afd779eef8b591165ae6

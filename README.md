@@ -1,3 +1,4 @@
+HEAD
 # AI-Based Smart Meeting Minutes Generator
 
 This project generates professional meeting minutes from audio or video recordings. It combines Faster-Whisper transcription, optional pyannote speaker diarization, OpenAI-compatible LLM summarization, and PDF/DOCX report export.
@@ -65,3 +66,7 @@ npm run build
 ```
 
 Generated reports are stored in `generated_reports/` and served from `/reports/<filename>`.
+
+# Minutes-Maker
+AI-powered meeting minutes generator using Whisper and NLP to transcribe multilingual audio, generate summaries, extract action items, and export reports in PDF and DOCX formats.
+2da27112b69fcd0120e6afd779eef8b591165ae6
